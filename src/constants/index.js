@@ -15,6 +15,7 @@ import {
     geu,
     pixelpal,
     frag,
+    profilepic,
   } from "../assets";
   
   export const navLinks = [
@@ -31,6 +32,8 @@ import {
       title: "Contact",
     },
   ];
+
+  const prof = [{icon: profilepic}];
   
   const services = [
     {
@@ -170,4 +173,4 @@ import {
     }
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, prof, technologies, experiences, testimonials, projects };

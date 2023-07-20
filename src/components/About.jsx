@@ -1,7 +1,7 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-
+import { prof } from "../constants";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -52,7 +52,7 @@ const About = () => {
 
         <div className="md:w-1/2 flex justify-center">
           <img
-            src="./src/components/DSCN6834.JPG"
+            src={prof[0].icon}
             alt="Image can't be loaded"
             className="w-80 h-80 rounded-full object-cover"
           />

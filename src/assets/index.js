@@ -16,6 +16,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import tensorflow from "./tech/tensorflow.png";
 
+import profilepic from "./profilepic.png";
+
 import gssoc from "./company/gssoc.png";
 import geu from "./company/geu.png";
 
@@ -43,4 +45,5 @@ export {
   geu,
   pixelpal,
   frag,
+  profilepic,
 };
